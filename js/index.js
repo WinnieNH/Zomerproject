@@ -7,3 +7,5 @@ var app = new Vue({
 
 
 gsap.to("h2.title", {duration: 1, opacity: 0.3});
+
+

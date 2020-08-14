@@ -8,6 +8,19 @@
     
       
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="http://code.jquery.com/jquery-1.6.4.js"></script>
+<script src="https://css-tricks.com/examples/HorzScrolling/jquery.mousewheel.js"></script>
+
+      
+<script>
+$(function() {
+	$("html, body, *").mousewheel(function(event, delta) { 
+		this.scrollLeft -= (delta * 30);
+		this.scrollRight -= (delta * 30);
+		event.preventDefault();
+	});
+});
+</script>
     
 
     <!-- Bootstrap CSS -->
@@ -16,7 +29,8 @@
     <title>Hello, world!</title>
   </head>
   <body>
-      
+      <div id="container1" class="container">
+      <div id="navigatiebalk"> </div>
 
 <h2 class="title"> GSAP demo</h2>
 
@@ -26,9 +40,17 @@
       
     <button type="button" class="btn">Basic</button>
       
+      <p>
+      
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper congue suscipit. Suspendisse nec neque lacinia, fermentum lacus id, rutrum odio. Nam vel consectetur metus. Nullam eleifend nisl diam, sit amet porttitor neque laoreet eu. In in felis fringilla, posuere diam sit amet, blandit risus. Curabitur in nisl ante. Pellentesque ut malesuada mi. Sed at varius dui, id euismod sem. 
+      </p>
+      
       <div id="app">
   {{ message }}
 </div>
+          <img src="img/c0435a6c-c08a-4d41-81c4-708521785a01_image3600009228556848948.png">
+      </div>
+      
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
       <script src="js/index.js"></script>
     <!-- Optional JavaScript -->
