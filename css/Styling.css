@@ -1,12 +1,35 @@
+#openingtitle{
+    position: absolute;
+    left: 15vw;
+    top: 12vw;
+}
 
-#introp{
-    width: 10vw;
+#openingp{
+    position: absolute;
+    left: 15.5vw;
+    top: 17.5vw;
+}
+
+#message{
     float: right;
 }
 
-#testImage {
-    width: 10vw;
+#introp{
+    position: relative;
+    width: 30vw;
+    bottom: 10vw;
+    left: 25vw;
 }
 
+#introtitle{
+    position: relative;
+    left: 25vw;
+    bottom: 10vw;
+}
 
-
+#introimg{
+    position: relative;
+    height: 15vw;
+    top: 10vw;
+    left: 5vw;
+}
