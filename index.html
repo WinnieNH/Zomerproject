@@ -4,8 +4,8 @@
     <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/styling.css">
+        <link rel="stylesheet" href="css/Style.css">
+        <link rel="stylesheet" href="css/Styling.css">
 
 
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -30,7 +30,7 @@
                   
             <h1 id="openingtitle">Winnie Hoogakker</h1>
             <h2 class="title" id="openingp">S6 Portfolio</h2>
-              
+              <div class="ball animation"></div>
           </div>
 
           
@@ -47,30 +47,30 @@
               <h1 class="opdrachttitle">Opdracht 1</h1>
               <h2 class="title opdrachtrubric">Rubric</h2>
               <p class="opdrachtp">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper congue suscipit. Suspendisse nec neque lacinia, fermentum lacus id, rutrum odio. Nam vel consectetur metus. Nullam eleifend nisl diam, sit amet porttitor neque laoreet eu. In in felis fringilla, posuere diam sit amet, blandit risus. Curabitur in nisl ante. Pellentesque ut malesuada mi. Sed at varius dui, id euismod sem. 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper congue suscipit. Suspendisse nec neque lacinia, fermentum <b>lacus</b> id, rutrum odio. Nam vel consectetur metus. Nullam eleifend nisl diam, sit amet porttitor neque laoreet eu. In in felis fringilla, posuere diam sit amet, blandit risus. Curabitur in nisl ante. Pellentesque ut malesuada mi. Sed at varius dui, id euismod sem. 
             </p>
           </div>
           
           <div class="container" id="container4"> 
-              <div id="rubric1"><h1>Rubric 1</h1> 
+              <div id="rubric1"><h1 class="title">Rubric 1</h1> 
                   <ul>
-                      <li><a href="" class="rubrichref">Coffee</a></li>
-                      <li><a href="" class="rubrichref">Tea</a></li>
-                      <li><a href="" class="rubrichref">Milk</a></li>
+                      <li><a href="#container3" class="rubrichref">Coffee</a></li>
+                      <li><a href="#container3" class="rubrichref">Tea</a></li>
+                      <li><a href="#container3" class="rubrichref">Milk</a></li>
                 </ul> 
               </div>
-              <div id="rubric2"><h1>Rubric 2</h1>
+              <div id="rubric2"><h1 class="title">Rubric 2</h1>
                 <ul>
-                  <li><a href="" class="rubrichref">Coffee</a></li>
-                  <li><a href="" class="rubrichref">Tea</a></li>
-                  <li><a href="" class="rubrichref">Milk</a></li>
+                  <li><a href="#container3" class="rubrichref">Coffee</a></li>
+                  <li><a href="#container3" class="rubrichref">Tea</a></li>
+                  <li><a href="#container3" class="rubrichref">Milk</a></li>
                 </ul> 
               </div>
-              <div id="rubric3"><h1>Rubric 3</h1>
+              <div id="rubric3"><h1 class="title">Rubric 3</h1>
                 <ul>
-                  <li><a href="" class="rubrichref">Coffee</a></li>
-                  <li><a href="" class="rubrichref">Tea</a></li>
-                  <li><a href="" class="rubrichref">Milk</a></li>
+                  <li><a href="#container3" class="rubrichref">Coffee</a></li>
+                  <li><a href="#container3" class="rubrichref">Tea</a></li>
+                  <li><a href="#container3" class="rubrichref">Milk</a></li>
                 </ul>
               </div>
               
@@ -79,11 +79,11 @@
       <div id="navigatiebalk"> 
             
             <div id="app">
-                <button type="button" class="btn nav">Home</button>
-                <button type="button" class="btn nav">Intro</button>
-                <button type="button" class="btn nav">Opdrachten</button>
-                <button type="button" class="btn nav">Rubrics</button>
-                <div id="message">{{ message }}</div>
+                <button type="button" class="btn nav" id="button1">Home</button>
+                <button type="button" class="btn nav" id="button2">Intro</button>
+                <button type="button" class="btn nav" id="button3">Opdrachten</button>
+                <button type="button" class="btn nav" id="button4">Rubrics</button>
+                <div id="message" class="title">{{ message }}</div>
             </div>
         </div>
       </div>
