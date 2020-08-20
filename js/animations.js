@@ -10,6 +10,8 @@ $(document).ready(function() {
 });
 
 
+
+
 $(document).ready(function() {
     $('.animation').hover(
         function () {

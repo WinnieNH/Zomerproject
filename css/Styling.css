@@ -7,11 +7,12 @@
 #openingp{
     position: absolute;
     left: 15.5vw;
-    top: 17.5vw;
+    top: 18.5vw;
 }
 
 #message{
     float: right;
+    margin-right: 1vw;
 }
 
 #introp{
@@ -32,4 +33,8 @@
     height: 15vw;
     top: 10vw;
     left: 5vw;
+}
+
+.testcontainer{
+    width: 80%;
 }
