@@ -7,7 +7,7 @@ body{
     background-image: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(229, 229, 229) 100%); 
     color: black;
     font-family: calibri;
-    width: 480vw;
+    width: 1256vw;
     overflow: hidden;
     min-height: 100%;
 }
@@ -52,7 +52,7 @@ h1{
     letter-spacing: -2px;
 }
 
-p{
+.par{
     background-color: #e1e1e1;
     padding: 15px 32px;
     box-shadow: -10px 10px #fc2941;   
@@ -79,47 +79,28 @@ img {
 
 .opdrachtimg{
     position: relative;
-    height: 15vw;
+    width: 15vw;
     top: 10vw;
     left: 5vw;
 }
 
-.opdrachttitle{
-    position: relative;
-    left: 25vw;
-    bottom: 10vw;
-}
-
-.opdrachtrubric{
-    position: relative;
-    left: 55vw;
-    bottom: 15vw;
-}
-
-.opdrachtp{
-    position: relative;
-    width: 30vw;
-    bottom: 13vw;
-    left: 25vw;
-}
-
 #rubric1{
     position: absolute;
-    left: 400vw;
+    left: 1175vw;
     bottom: 50%;
     width: 500px;
 }
 
 #rubric2{
     position: absolute;
-    left: 425vw;
+    left: 1200vw;
     bottom: 50%;
     width: 500px;
 }
 
 #rubric3{
     position: absolute;
-    left: 450vw;
+    left: 1225vw;
     bottom: 50%;
     width: 500px;
 }
@@ -149,4 +130,13 @@ b{
   border-radius: 50%;
     left: 55vw;
     top: 15vw;
+}
+
+.extraopdrachtp{
+    position: relative;
+    top: 5%;
+}
+
+.header3{
+    font-weight: bold;
 }

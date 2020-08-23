@@ -38,3 +38,79 @@
 .testcontainer{
     width: 80%;
 }
+
+.opdrachttitle1{
+    position: relative;
+    left: 25vw;
+    bottom: 47%;
+}
+
+.opdrachttitle2{
+    position: relative;
+    left: 25vw;
+    bottom: 15%;
+}
+
+.opdrachttitle3{
+    position: relative;
+    left: 25vw;
+    bottom: 25%;
+}
+
+.opdrachttitle4{
+    position: relative;
+    left: 25vw;
+    bottom: 27%;
+}
+
+.opdrachtrubric1{
+    position: relative;
+    left: 75vw;
+    bottom: 52%;
+}
+
+.opdrachtrubric2{
+    position: relative;
+    left: 75vw;
+    bottom: 20%;
+}
+
+.opdrachtrubric3{
+    position: relative;
+    left: 75vw;
+    bottom: 32%;
+}
+
+.opdrachtrubric4{
+    position: relative;
+    left: 75vw;
+    bottom: 35%;
+}
+
+.opdrachtp1{
+    position: relative;
+    width: 50vw;
+    bottom: 52%;
+    left: 25vw;
+}
+
+.opdrachtp2{
+    position: relative;
+    width: 50vw;
+    bottom: 20%;
+    left: 25vw;
+}
+
+.opdrachtp3{
+    position: relative;
+    width: 50vw;
+    bottom: 32%;
+    left: 25vw;
+}
+
+.opdrachtp4{
+    position: relative;
+    width: 50vw;
+    bottom: 35%;
+    left: 25vw;
+}
