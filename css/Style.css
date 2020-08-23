@@ -86,22 +86,22 @@ img {
 
 #rubric1{
     position: absolute;
-    left: 1175vw;
+    left: 1170vw;
     bottom: 50%;
     width: 500px;
 }
 
 #rubric2{
     position: absolute;
-    left: 1200vw;
-    bottom: 50%;
+    left: 1195vw;
+    bottom: 55%;
     width: 500px;
 }
 
 #rubric3{
     position: absolute;
-    left: 1225vw;
-    bottom: 50%;
+    left: 1220vw;
+    bottom: 60%;
     width: 500px;
 }
 
@@ -139,4 +139,15 @@ b{
 
 .header3{
     font-weight: bold;
+}
+
+a {
+    background-image: linear-gradient(180deg, #3a77dc 0%, #00b4ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.rubrictitle{
+    font-size: 3em;
 }

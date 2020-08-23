@@ -17,15 +17,15 @@
 
 #introp{
     position: relative;
-    width: 30vw;
-    bottom: 10vw;
+    width: 50vw;
+    bottom: 15vw;
     left: 25vw;
 }
 
 #introtitle{
     position: relative;
     left: 25vw;
-    bottom: 10vw;
+    bottom: 15vw;
 }
 
 #introimg{
@@ -66,7 +66,7 @@
 .opdrachtrubric1{
     position: relative;
     left: 75vw;
-    bottom: 52%;
+    bottom: 53%;
 }
 
 .opdrachtrubric2{
@@ -90,7 +90,7 @@
 .opdrachtp1{
     position: relative;
     width: 50vw;
-    bottom: 52%;
+    bottom: 53%;
     left: 25vw;
 }
 
@@ -114,3 +114,4 @@
     bottom: 35%;
     left: 25vw;
 }
+
