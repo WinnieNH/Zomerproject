@@ -10,8 +10,8 @@
                 }
                 else{
                     //console.log(this.scrollLeft);
-                    this.scrollLeft -= (delta * 200);
-                    this.scrollRight -= (delta * 200);
+                    this.scrollLeft -= (delta * 225);
+                    this.scrollRight -= (delta * 225);
                     event.preventDefault();
                 }
                 
